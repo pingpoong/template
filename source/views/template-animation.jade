@@ -1,0 +1,129 @@
+extends layouts/template
+
+block vars
+  -title = 'Animation'
+
+block container
+  h1 Animation template
+  .effects
+    h2 2D Transitions
+    +link('Grow').hvr-grow
+    +link('Shrink').hvr-shrink
+    +link('Pulse').hvr-pulse
+    +link('Pulse Grow').hvr-pulse-grow
+    +link('Pulse Shrink').hvr-pulse-shrink
+    +link('Push').hvr-push
+    +link('Pop').hvr-pop
+    +link('Bounce In').hvr-bounce-in
+    +link('Bounce Out').hvr-bounce-out
+    +link('Rotate').hvr-rotate
+    +link('Grow Rotate').hvr-grow-rotate
+    +link('Float').hvr-float
+    +link('Sink').hvr-sink
+    +link('Bob').hvr-bob
+    +link('Hang').hvr-hang
+    +link('Skew').hvr-skew
+    +link('Skew Forward').hvr-skew-forward
+    +link('Skew Backward').hvr-skew-backward
+    +link('Wobble Horizontal').hvr-wobble-horizontal
+    +link('Wobble Vertical').hvr-wobble-vertical
+    +link('Wobble To Bottom Right').hvr-wobble-to-bottom-right
+    +link('Wobble To Top Right').hvr-wobble-to-top-right
+    +link('Wobble Top').hvr-wobble-top
+    +link('Wobble Bottom').hvr-wobble-bottom
+    +link('Wobble Skew').hvr-wobble-skew
+    +link('Buzz').hvr-buzz
+    +link('Buzz Out').hvr-buzz-out
+
+    h2 Background Transitions
+    +link('Fade').hvr-fade
+    +link('Back Pulse').hvr-back-pulse
+    +link('Sweep To Right').hvr-sweep-to-right
+    +link('Sweep To Left').hvr-sweep-to-left
+    +link('Sweep To Bottom').hvr-sweep-to-bottom
+    +link('Sweep To Top').hvr-sweep-to-top
+    +link('Bounce To Right').hvr-bounce-to-right
+    +link('Bounce To Left').hvr-bounce-to-left
+    +link('Bounce To Bottom').hvr-bounce-to-bottom
+    +link('Bounce To Top').hvr-bounce-to-top
+    +link('Radial Out').hvr-radial-out
+    +link('Radial In').hvr-radial-in
+    +link('Rectangle In').hvr-rectangle-in
+    +link('Rectangle Out').hvr-rectangle-out
+    +link('Shutter In Horizontal').hvr-shutter-in-horizontal
+    +link('Shutter Out Horizontal').hvr-shutter-out-horizontal
+    +link('Shutter In Vertical').hvr-shutter-in-vertical
+    +link('Shutter Out Vertical').hvr-shutter-out-vertical
+
+    h2 Icons
+    +link('Icon Back').hvr-icon-back
+    +link('Icon Forward').hvr-icon-forward
+    +link('Icon Down').hvr-icon-down
+    +link('Icon Up').hvr-icon-up
+    +link('Icon Spin').hvr-icon-spin
+    +link('Icon Drop').hvr-icon-drop
+    +link('Icon Fade').hvr-icon-fade
+    +link('Icon Float Away').hvr-icon-float-away
+    +link('Icon Sink Away').hvr-icon-sink-away
+    +link('Icon Grow').hvr-icon-grow
+    +link('Icon Shrink').hvr-icon-shrink
+    +link('Icon Pulse').hvr-icon-pulse
+    +link('Icon Pulse Grow').hvr-icon-pulse-grow
+    +link('Icon Pulse Shrink').hvr-icon-pulse-shrink
+    +link('Icon Push').hvr-icon-push
+    +link('Icon Pop').hvr-icon-pop
+    +link('Icon Bounce').hvr-icon-bounce
+    +link('Icon Rotate').hvr-icon-rotate
+    +link('Icon Grow Rotate').hvr-icon-grow-rotate
+    +link('Icon Float').hvr-icon-float
+    +link('Icon Sink').hvr-icon-sink
+    +link('Icon Bob').hvr-icon-bob
+    +link('Icon Hang').hvr-icon-hang
+    +link('Icon Wobble Horizontal').hvr-icon-wobble-horizontal
+    +link('Icon Wobble Vertical').hvr-icon-wobble-vertical
+    +link('Icon Buzz').hvr-icon-buzz
+    +link('Icon Buzz Out').hvr-icon-buzz-out
+
+    h2 Border Transitions
+    +link('Border Fade').hvr-border-fade
+    +link('Hollow').hvr-hollow
+    +link('Trim').hvr-trim
+    +link('Ripple Out').hvr-ripple-out
+    +link('Ripple In').hvr-ripple-in
+    +link('Outline Out').hvr-outline-out
+    +link('Outline In').hvr-outline-in
+    +link('Round Corners').hvr-round-corners
+    +link('Underline From Left').hvr-underline-from-left
+    +link('Underline From Center').hvr-underline-from-center
+    +link('Underline From Right').hvr-underline-from-right
+    +link('Reveal').hvr-reveal
+    +link('Underline Reveal').hvr-underline-reveal
+    +link('Overline Reveal').hvr-overline-reveal
+    +link('Overline From Left').hvr-overline-from-left
+    +link('Overline From Center').hvr-overline-from-center
+    +link('Overline From Right').hvr-overline-from-right
+
+    h2 Shadow and Glow Transitions
+    +link('Shadow').hvr-shadow
+    +link('Grow Shadow').hvr-grow-shadow
+    +link('Float Shadow').hvr-float-shadow
+    +link('Glow').hvr-glow
+    +link('Shadow Radial').hvr-shadow-radial
+    +link('Box Shadow Outset').hvr-box-shadow-outset
+    +link('Box Shadow Inset').hvr-box-shadow-inset
+
+    h2 Speech Bubbles
+    +link('Bubble Top').hvr-bubble-top
+    +link('Bubble Right').hvr-bubble-right
+    +link('Bubble Bottom').hvr-bubble-bottom
+    +link('Bubble Left').hvr-bubble-left
+    +link('Bubble Float Top').hvr-bubble-float-top
+    +link('Bubble Float Right').hvr-bubble-float-right
+    +link('Bubble Float Bottom').hvr-bubble-float-bottom
+    +link('Bubble Float Left').hvr-bubble-float-left
+
+    h2 Curls
+    +link('Curl Top Left').hvr-curl-top-left
+    +link('Curl Top Right').hvr-curl-top-right
+    +link('Curl Bottom Right').hvr-curl-bottom-right
+    +link('Curl Bottom Left').hvr-curl-bottom-left
